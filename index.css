@@ -1,0 +1,72 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    color: white;
+}
+.to-do-list {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #2c2929;
+}
+.to-do-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.to-do-list input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.to-do-list button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+.to-do-list button:hover {
+    background-color: #218838;
+}
+.to-do-list ol {
+    padding-left: 20px;
+}
+.to-do-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+.to-do-list li:last-child {
+    border-bottom: none;
+}
+.to-do-list .text {
+    flex-grow: 1;
+}
+.to-do-list .delete-button {
+    background-color: #dc3545;
+}
+.to-do-list .delete-button:hover {
+    background-color: #c82333;
+}
+.to-do-list .move-up-button,
+.to-do-list .move-down-button {
+    background-color: #007bff;
+}
+.to-do-list .move-up-button:hover,
+.to-do-list .move-down-button:hover {
+    background-color: #0069d9;
+}
+.btn .delete-button,
+.btn .move-up-button,
+.btn .move-down-button {
+    margin-left: 10px;
+}
